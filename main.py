@@ -1,4 +1,4 @@
-def factOrSum(y , x):
+def factOrSum(x , y):
     if y == "factorial":
         total = 1
     
@@ -16,4 +16,4 @@ def factOrSum(y , x):
 
         return total
 
-print (factOrSum("sum", 10)) 
+print (factOrSum(10, "sum")) 
