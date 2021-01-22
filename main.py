@@ -11,9 +11,9 @@ def factOrSum(x , y):
 
         total = 0
 
-        for i in range (0, x ):
+        for i in range (0, x + 1 ):
             total = total + i
 
         return total
 
-print (factOrSum(10, "sum")) 
+print (factOrSum(3, "sum")) 
